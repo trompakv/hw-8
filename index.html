@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>HW-8</title>
+        <style>
+            * {
+                transition: all 0.5s;
+                font-size: 18px;
+                font-family: "Trebuchet MS", "Lucida Sans Unicode",
+                    "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+            }
+            body {
+                height: 100vh;
+                color: #ffffff;
+                background-color: #121212;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 50px;
+                text-align: center;
+            }
+
+            section {
+                margin-top: 50px;
+            }
+
+            table,
+            tr,
+            th,
+            td {
+                border-collapse: collapse;
+                border: solid 1px #fff;
+                padding: 10px;
+                text-align: center;
+            }
+            td:hover {
+                padding: 20px;
+                font-size: 20px;
+                color: #fff;
+            }
+
+            .text-box h3:first-of-type {
+                color: pink;
+            }
+            #greycol {
+                color: gray;
+            }
+            .text-box div p {
+                color: red;
+            }
+            .text-box p:nth-of-type(3) {
+                color: green;
+            }
+            .text-box .yellow {
+                color: yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <section id="task1">
+            <div class="text-box">
+                <h3>Пофарбуйте мене в рожевий колір (color:pink).</h3>
+                <p>Даний елемент має залишитись неоформленим.</p>
+                <p id="greycol">Пофарбуйте мене в сірий колір (color:grey).</p>
+                <div>Даний елемент має залишитись неоформленим.</div>
+                <div><p>Пофарбуйте мене в червоний колір (color:red).</p></div>
+                <h3>Даний елемент має залишитись неоформленим.</h3>
+                <p>Пофарбуйте мене в зелений колір (color:green).</p>
+                <p class="yellow">
+                    Пофарбуйте мене в жовтий колір (color:yellow).
+                </p>
+            </div>
+        </section>
+
+        <section id="task2">
+            <table>
+                <tr>
+                    <th class="tablehead">№</th>
+                    <th class="tablehead">Понеділок</th>
+                    <th class="tablehead">Вівторок</th>
+                    <th class="tablehead">Середа</th>
+                    <th class="tablehead">Четвер</th>
+                    <th class="tablehead">П'ятниця</th>
+                </tr>
+                <tr style="color: red">
+                    <th>1.</th>
+                    <td>Алгебра</td>
+                    <td>Образотворче</td>
+                    <td>Геометрія</td>
+                    <td>Укр. мова</td>
+                    <td>Укр. мова</td>
+                </tr>
+                <tr style="color: orange">
+                    <th>2.</th>
+                    <td>Укр. літ.</td>
+                    <td>Хімія</td>
+                    <td>Зарубіжна літ.</td>
+                    <td>Англійська</td>
+                    <td>Геометрія</td>
+                </tr>
+                <tr style="color: yellow">
+                    <th>3.</th>
+                    <td>Зарубіжна літ.</td>
+                    <td>Німецька</td>
+                    <td>Історія Укр.</td>
+                    <td>Всесвітня іст.</td>
+                    <td>Фізкультура</td>
+                </tr>
+                <tr style="color: rgb(0, 255, 0)">
+                    <th>4.</th>
+                    <td>Географія</td>
+                    <td>Фізкультура</td>
+                    <td>Фізика</td>
+                    <td>Алгебра</td>
+                    <td>Німецька</td>
+                </tr>
+                <tr style="color: rgb(0, 179, 255)">
+                    <th>5.</th>
+                    <td>Англійська</td>
+                    <td>Біологія</td>
+                    <td>Біологія</td>
+                    <td>Укр. літ.</td>
+                    <td>Географія</td>
+                </tr>
+                <tr style="color: rgb(33, 40, 255)">
+                    <th>6.</th>
+                    <td>Інформатика</td>
+                    <td>Фізика</td>
+                    <td>Німецька</td>
+                    <td>Трудове</td>
+                    <td>Хімія</td>
+                </tr>
+                <tr style="color: rgb(179, 0, 255)">
+                    <th>7.</th>
+                    <td>Німецька</td>
+                    <td>Основи здор.</td>
+                    <td>Фізкультура</td>
+                    <td>Німецька</td>
+                    <td>Муз. мистецтво</td>
+                </tr>
+            </table>
+        </section>
+    </body>
+</html>
